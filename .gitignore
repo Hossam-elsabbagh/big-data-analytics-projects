@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Java / Maven
+target/
+*.class
+
+# Spark / Hadoop
+*.crc
+_SUCCESS
+part-*
+spark-warehouse/
+metastore_db/
+derby.log
+checkpoints/
+
+# Large data and generated outputs
+*.zip
+*.tar.gz
+*.csv
+*.parquet
+*.json
+*.model
+*.pkl
+
+# Keep folder placeholders
+!.gitkeep
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
